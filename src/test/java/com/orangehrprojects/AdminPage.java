@@ -21,7 +21,7 @@ public class AdminPage {
 	public static WebDriver driver;
 	
 @org.testng.annotations.BeforeMethod
-public void BeforeMethod() throws IOException {
+public void beforeMethod() throws IOException {
 
 	String Data2 = ".\\src\\main\\java\\com\\datapropertyfiles\\Adminpage.properties";
 	FileInputStream file1 = new FileInputStream(Data2);
